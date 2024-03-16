@@ -6,7 +6,8 @@ plugins {
 android {
     signingConfigs {
         debug {
-            storeFile file('D:\\tool\\tv_src\\default.jks')
+            storeFile file('debug.jks')
+//            storeFile file('D:\\tool\\tv_src\\default.jks')
             storePassword 'default'
             keyAlias 'default'
             keyPassword 'default'
