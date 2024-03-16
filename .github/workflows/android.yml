@@ -35,4 +35,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: my-artifacts
-        path: app/build/outputs/apks/release
+        path: app/build/outputs/apk/release
