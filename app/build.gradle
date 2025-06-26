@@ -20,8 +20,10 @@ android {
         applicationId "com.tianci.movieplatform"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+//        versionCode 1
+//        versionName "1.0"
+        versionCode 9999999
+        versionName "9.99.9999"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.debug
